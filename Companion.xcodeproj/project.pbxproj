@@ -30,6 +30,7 @@
 		1EAD980919D7537700FF793D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAD980819D7537700FF793D /* CoreGraphics.framework */; };
 		1EAD980C19D755C700FF793D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD980B19D755C700FF793D /* LoginViewController.m */; };
 		1EAD980E19D757D000FF793D /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAD980D19D757D000FF793D /* ParseFacebookUtils.framework */; };
+		1EAD981219D76F1100FF793D /* Consumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD981119D76F1100FF793D /* Consumer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		1EAD980A19D755C700FF793D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1EAD980B19D755C700FF793D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		1EAD980D19D757D000FF793D /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = ../../../Parse/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		1EAD981019D76F1100FF793D /* Consumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Consumer.h; sourceTree = "<group>"; };
+		1EAD981119D76F1100FF793D /* Consumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Consumer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,7 @@
 		1EAD978B19D73FD800FF793D /* Companion */ = {
 			isa = PBXGroup;
 			children = (
+				1EAD980F19D76F0100FF793D /* Library */,
 				1EAD97B919D74EB400FF793D /* ViewControllers */,
 				1EAD979019D73FD800FF793D /* AppDelegate.h */,
 				1EAD979119D73FD800FF793D /* AppDelegate.m */,
@@ -189,6 +193,15 @@
 				1EAD980B19D755C700FF793D /* LoginViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EAD980F19D76F0100FF793D /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD981019D76F1100FF793D /* Consumer.h */,
+				1EAD981119D76F1100FF793D /* Consumer.m */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EAD979519D73FD800FF793D /* Companion.xcdatamodeld in Sources */,
+				1EAD981219D76F1100FF793D /* Consumer.m in Sources */,
 				1EAD979219D73FD800FF793D /* AppDelegate.m in Sources */,
 				1EAD97BC19D74ED500FF793D /* RequestCompanionViewController.m in Sources */,
 				1EAD978F19D73FD800FF793D /* main.m in Sources */,
